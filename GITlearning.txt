@@ -12,5 +12,19 @@ $rm test.txt    删除工作区文件
 $git rm test.txt   删除版本库文件
 $ git checkout -- test.txt   用版本库里的版本替换工作区的版本
 $ git push origin master   把本地master分支的最新修改推送至GitHub
+$ git clone git@github.com:lishiming699/gitskills.git    从github上克隆库到本地
+$ git checkout -b dev     git checkout命令加上-b参数表示创建并切换
+$ git branch dev
+$ git checkout dev     
+$ git branch   然后，用git branch命令查看当前分支：
+$ git checkout master   切换回master分支
+$ git merge dev    现在，我们把dev分支的工作成果合并到master分支上：
+$ git branch -d dev   删除dev分支
+$ git switch -c dev  创建并切换到新的dev分支，可以使用：
+$ git switch master  直接切换到已有的master分支，可以使用：
+
+
+
+
 
 
