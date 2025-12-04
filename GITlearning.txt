@@ -1,0 +1,11 @@
+GIT learning 25/12/04
+$git add readme.txt    添加到暂存区
+$git commit -m '修改内容'    添加到当前分支
+$cat readme.txt     展示文件内容
+$git status    查看当前状态
+$git log    查看提交日志
+$git diff    查看修改内容
+$git reflog    查看操作记录
+$git checkout -- readme.txt    放弃修改，恢复到上次提交状态
+$git reset HEAD readme.txt    取消暂存区的修改
+
