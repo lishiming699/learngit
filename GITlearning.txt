@@ -11,4 +11,6 @@ $git reset HEAD readme.txt    取消暂存区的修改
 $rm test.txt    删除工作区文件
 $git rm test.txt   删除版本库文件
 $ git checkout -- test.txt   用版本库里的版本替换工作区的版本
+$ git push origin master   把本地master分支的最新修改推送至GitHub
+
 
